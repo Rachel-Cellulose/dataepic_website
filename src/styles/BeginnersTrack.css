@@ -358,7 +358,9 @@
 }
 
 @media screen and (max-width: 768px) {
-
+.beginner_wrapper{
+  width: 90%;
+}
   .beginner-content h1,
   .beginners_mentors_text h1,
   .oranges {

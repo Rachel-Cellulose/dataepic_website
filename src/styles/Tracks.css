@@ -23,7 +23,6 @@
   text-align: left;
   justify-content: left;
   align-items: flex-start;
-
 }
 
 .track-container {
@@ -109,9 +108,11 @@
 .datamastery-container {
   color: #fff;
   background: linear-gradient(0deg, #1c1b26, #1c1b26),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
   border-radius: 16px;
   min-height: 710px;
   width: 100%;
@@ -140,9 +141,11 @@
   width: 48rem;
   height: 5rem;
   background: linear-gradient(0deg, #1c1b26, #1c1b26),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
 }
 
 .datamastery-infos p {
@@ -194,16 +197,20 @@
 
 .datamastery-infos {
   background: linear-gradient(0deg, #1c1b26, #1c1b26),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
 }
 
 .datamastery-infos .orange {
   background: linear-gradient(0deg, #1c1b26, #1c1b26),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
 }
 
 .datamastery-wrapper .track-type {
@@ -212,9 +219,11 @@
   height: 40%;
   display: flex;
   background: linear-gradient(0deg, #1c1b26, #1c1b26),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
 }
 
 .track {
@@ -269,12 +278,12 @@
 
   .datamastery-infos {
     padding: 2rem 5%;
+  }
 
-    p,
-    h2 {
-      width: unset;
-      height: unset;
-    }
+  .datamastery-infos p,
+  .datamastery-infos h2 {
+    width: unset;
+    height: unset;
   }
 
   .datamastery-container .wrapper {
@@ -285,7 +294,6 @@
     margin-top: 3rem;
   }
 }
-
 
 /* @media screen and (max-width: 767.98px) {
   .track-content {

@@ -63,7 +63,7 @@ html {
 }
 
 .hero-content p {
-  font-size: 18px;
+  font-size: 1rem;
   background: #15141d;
   font-family: inter;
   word-spacing: 1px;
@@ -80,7 +80,7 @@ html {
 
 .reserve-btns button {
   height: 48px;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: inter;
   font-weight: 500;
   border-radius: 64px;
@@ -177,7 +177,7 @@ html {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-size: 48px;
+  font-size: 3rem;
   color: #fff;
 }
 
@@ -186,7 +186,7 @@ html {
   background: #15141d;
   color: #b3b3b3;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 32px;
   text-align: center;
@@ -205,25 +205,24 @@ html {
 }
 
 /* DATA MASTERY AND TRACK */
-.main_wrapper .datamastery-container {
+.datamastery-container {
   color: #fff;
   background: linear-gradient(0deg, #1c1b26, #1c1b26),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
   border-radius: 16px;
-  /* height: 100vh; */
   width: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* padding-top: 2%; */
-  /* padding-bottom: 3%; */
   margin: auto;
   border: 3px solid rgba(75, 75, 75, 0.25);
 }
 
-.main_wrapper .datamastery-wrapper {
+.datamastery-wrapper {
   border-radius: 16px;
   margin: 1rem auto;
 }
@@ -232,12 +231,18 @@ html {
 .data-firsttext,
 .datamastery-info h2,
 .datamastery-info p,
-.datamastery-info .orange,
-.main_wrapper .datamastery-wrapper {
+.datamastery-info .orange {
   background: linear-gradient(0deg, #1c1b26, #1c1b26),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.datamastery-wrapper {
+  background-color: rgba(28, 27, 38, 1);
+  border-radius: 16px;
 }
 
 .datamastery-info h2 {
@@ -247,6 +252,7 @@ html {
   font-weight: 700;
   line-height: 5rem;
   height: 170px;
+  padding-top: 1rem;
 }
 
 .datamastery-info h2,
@@ -259,29 +265,23 @@ html {
 }
 
 .datamastery-info p {
-  margin: 1rem auto;
-}
-
-.datamastery-info p {
   color: rgba(179, 179, 179, 1);
-  font-family: Inter;
-  word-spacing: 1px;
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0em;
-  /* padding: 3%; */
+  margin: 1rem auto;
+  font-family: Inter;
+  font-size: 1rem;
 }
 
 .track-type {
-
   border-radius: 16px;
   color: #f4f4f4;
-  /* height: 40%; */
-  /* display: flex; */
   background: linear-gradient(0deg, #1c1b26, #1c1b26),
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(255, 255, 255, 0.5) 0%,
-      rgba(255, 255, 255, 0) 100%);
+      rgba(255, 255, 255, 0) 100%
+    );
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -294,16 +294,6 @@ html {
   border: 12px solid rgba(75, 75, 75, 0.25);
   border-radius: 16px;
 }
-
-/* .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  gap: 20px;
-  border: 4px solid yellow;
-  height: 100%;
-} */
 
 .track_info {
   border-radius: 10px;
@@ -339,13 +329,13 @@ html {
   align-items: center;
   height: 7rem;
   width: 100%;
-  /* min-width: 33rem; */
   border-radius: 1rem;
   display: flex;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 800;
   line-height: 2.4rem;
   text-align: center;
+  padding: 1%;
 }
 
 .beginner-type h2 {
@@ -364,14 +354,14 @@ html {
   flex-direction: column;
   justify-content: space-between;
   width: 30%;
-  min-width: 250px;
+  /* min-width: 250px; */
   max-width: 400px;
   text-align: center;
 }
 
 .notes h4 {
   width: 300px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   font-family: Eczar;
   line-height: 32px;
@@ -657,7 +647,7 @@ html {
   border-radius: 16px;
   color: #fff;
   width: 80%;
-  min-width: 18.75rem;
+  /* min-width: 18.75rem; */
   margin-bottom: 20px;
   justify-content: space-between;
   align-content: space-between;
@@ -779,8 +769,8 @@ html {
   justify-content: center;
   align-items: center;
   margin: 2% auto;
-  width: fit-content;
-  min-width: 20rem;
+  /* width: fit-content; */
+  /* min-width: 20rem; */
 }
 
 /* .playback .entry {
@@ -906,7 +896,6 @@ html {
 }
 
 @media (min-width: 1200px) {
-
   .about_scroll,
   .datamastery-container {
     padding: 0;
@@ -951,7 +940,7 @@ html {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero-content p {
-    margin-top: 12%;
+    margin-top: 10%;
   }
 
   .main_wrapper .datamastery-container {
@@ -972,7 +961,6 @@ html {
 
   .track-type .track {
     width: 31%;
-    /* display: grid; */
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 
@@ -985,8 +973,8 @@ html {
   .notes {
     width: 100%;
     padding: 0;
-    height: 200px;
-    max-height: 300px;
+    /* height: 200px; */
+    /* max-height: 300px; */
     margin: 0 auto;
   }
 
@@ -1052,9 +1040,6 @@ html {
   .about_scroll,
   .about_scroll,
   .session_container h1,
-  .play_session,
-  .playback,
-  .entry_level,
   .new_mentor_para {
     width: 90%;
   }
@@ -1081,12 +1066,18 @@ html {
     width: 100%;
     margin: 0 auto;
     padding: 0.5rem;
-    /* padding: 0;
-  background-color: red;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  width: 100%; */
+  }
+  .play_session {
+    width: 96%;
+  }
+  .playback {
+    background-color: transparent;
+    display: flex;
+  }
+  .playback_sessions img {
+    width: 90%;
+    margin: auto 10px;
+    padding: 2%;
   }
 }
 
@@ -1159,17 +1150,27 @@ html {
   .dataepic_para p {
     padding: 0 10px 0 10px;
   }
-
-  .playback .entry_level {
+  .playback_sessions {
     width: 100%;
+  }
+  .playback_sessions img {
+    width: 200px;
+  }
+
+  .playback {
+    width: 100%;
+  }
+
+  .play_session {
+    width: 96%;
+  }
+  .playback {
+    background-color: transparent;
+    display: flex;
   }
 }
 
 @media (min-width: 768px) and (max-width: 830px) {
-
-  /* .container{
-  width: 100%;
-} */
   .main_wrapper .datamastery-container {
     height: 220vh;
   }
@@ -1239,24 +1240,15 @@ html {
     margin: 0 auto;
   }
 
-  .dataepic_container {
-    /* display: grid; */
-  }
-
-  .dataepic_wrap {
+  /* .dataepic_wrap {
     margin: 0 auto;
     height: 100%;
     background-color: orange;
-    /* flex: 1 1 calc(33.33% - 16px); */
-  }
+  } */
 
   .dataepic_para h3 {
     margin: 0;
     height: 10%;
-  }
-
-  .playback .entry_level {
-    width: 80%;
   }
 }
 
@@ -1304,28 +1296,26 @@ html {
   }
 
   .red {
-    /* border: 5px solid green; */
-    /* height: 260vh; */
     padding: 0;
     margin: 0;
   }
 
-  /* .main_wrapper .datamastery-container {
-    height: 360vh;
-  } */
   .datamastery-info h2 {
     line-height: 1.5;
-    font-size: 1.6rem;
+    font-size: 40px;
     width: 90%;
-    margin: 0 auto;
     margin-top: 0.6rem;
+    margin-bottom: 1rem;
   }
 
   .datamastery-info p {
     margin: 0 auto;
     padding: 0;
     width: 90%;
-    font-size: 1rem;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
   }
 
   .wrapper {
@@ -1347,7 +1337,7 @@ html {
   .beginner-type h2,
   .intermediate-type h2,
   .new_mentor_para h1 {
-    font-size: 1.6rem;
+    font-size: 36px;
     padding: 0.2rem;
     line-height: 1.1;
   }
@@ -1361,7 +1351,7 @@ html {
 
   .notes {
     width: 100%;
-    max-width: 90%;
+    max-width: 96%;
     margin: 0 auto;
     padding: 0;
   }
@@ -1372,6 +1362,14 @@ html {
     padding: 0;
     text-align: left;
     justify-content: left;
+  }
+
+  .notes h4 {
+    font-size: 20px;
+  }
+
+  .note p {
+    font-size: 16px;
   }
 
   .track_btn {
@@ -1393,8 +1391,14 @@ html {
     margin: 1rem auto;
   }
 
+  .new_mentor_para h1,
+  .new_mentor_para .oranges {
+    font-size: 48px;
+    background-color: transparent;
+  }
+
   .new_mentor_para p {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .new_mentor_para,
@@ -1427,16 +1431,16 @@ html {
     padding: 0;
   }
 
+  .dataepic_mentors_text h1,
+  .dataepic_mentors_text h1 .oranges {
+    font-size: 48px;
+  }
   .dataepic_mentors_text p {
     width: 100%;
-  }
-
-  .dataepic_mentors_text .oranges {
-    font-size: 2rem;
+    margin: 0;
   }
 
   .dataepic_container {
-    /* display: grid; */
     width: 100%;
     flex-direction: column;
   }
@@ -1458,7 +1462,7 @@ html {
   .session_container h1,
   .session_container .oranges {
     line-height: 1.5;
-    font-size: 1.6rem;
+    font-size: 48px;
     height: auto;
     margin: 2rem auto;
   }
@@ -1474,19 +1478,66 @@ html {
   }
 
   .playback img {
-    width: 280px;
+    width: 100%;
+    margin: 0;
   }
 
   .mentors_textt .oranges,
   .mentors_textt h1 {
-    font-size: 1.6rem;
+    font-size: 48px;
     line-height: 1.5;
   }
 }
 
-
 /* Extra small devices (phones) */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+  .datamastery-container h2,
+  .dataepic_mentors_text h1,
+  .dataepic_mentors_text h1 .oranges,
+  .new_mentor_para h1,
+  .new_mentor_para h1 .oranges,
+  .session_container h1,
+  .session_container h1 .oranges,
+  .mentors_textt h1,
+  .mentors_textt h1 .oranges {
+    font-size: 30px;
+    width: 96%;
+  }
+
+  .session_container h1,
+  .session_container h1 .oranges{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
+  .beginner-type,
+  .beginner-type h2,
+  .intermediate-type h2 {
+    width: 100%;
+    font-size: 1.3em;
+  }
+  .dataepic_wrap{
+    margin-top: 24px;
+  }
+   .dataepic_para h3,
+  .dataepic_para p {
+      padding: 0px 2px 2px 2px;
+
+  }
+.faq-wrappers{
+  margin: 0;
+}
+  .accordion_three h2{
+    font-size: 18px;
+  }
+
+  .accordion_four p{
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
 
 /* Small devices (tablets) */
 @media screen and (max-width: 768px) {
@@ -1520,10 +1571,13 @@ html {
 }
 
 /* Medium devices (laptops) */
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+}
 
 /* Large devices (desktops) */
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+}
 
 /* Extra large devices */
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 1400px) {
+}

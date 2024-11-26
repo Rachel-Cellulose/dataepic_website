@@ -9,7 +9,7 @@ const sessionImages = [
 
 function PastSessions() {
   return (
-    <div>
+    <div className="session_wrapper">
       <div className="session_container">
         <h1>
           Run a Play back on our <br />

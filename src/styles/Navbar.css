@@ -127,7 +127,7 @@
     top: 80px;
     left: -100%;
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 250px);
     background: rgba(21, 20, 29, 1);
     transition: all 0.5s ease;
     z-index: 1;
@@ -152,6 +152,10 @@
 
   .nav-item {
     width: 100%;
+  }
+
+  .nav-menu li {
+    padding: 2.5rem 0; 
   }
 
   .nav-links.nav-links-last {
